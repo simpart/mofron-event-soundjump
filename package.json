@@ -1,0 +1,26 @@
+{
+  "name": "mofron-event-soundjump",
+  "version": "0.0.1",
+  "description": "sound jump event for mofron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpart/mofron-event-soundjump.git"
+  },
+  "dependencies": {
+    "mofron-event-tapsound":""
+  },
+  "keywords": [
+    "front-end",
+    "mofron"
+  ],
+  "author": "simparts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simpart/mofron-event-soundjump/issues"
+  },
+  "homepage": "https://github.com/simpart/mofron-event-soundjump#readme"
+}
