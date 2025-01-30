@@ -1,6 +1,6 @@
 {
   "name": "mofron-event-soundjump",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "sound jump event for mofron",
   "main": "index.js",
   "scripts": {

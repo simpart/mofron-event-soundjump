@@ -28,7 +28,7 @@ module.exports = class extends TapSound {
                 try {
                     let mute_flg = localStorage.getItem('mute');
 		    if (true !== mute_flg) {
-                        c3.src().play();
+                        c3.audio().play();
                     }
                     /* page jump */
                     setTimeout(() => { window.location.href = c3.url(); }, 500);
@@ -54,15 +54,6 @@ module.exports = class extends TapSound {
             console.error(e.stack);
             throw e;
         }
-    }
-    
-    audio (prm) {
-        try {
-            return this.src(prm);
-	} catch (e) {
-            console.error(e.stack);
-            throw e;
-	}
     }
 }
 /* end of file */
